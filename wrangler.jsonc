@@ -11,12 +11,12 @@
 			"tag": "v1"
 		},
 		// BUG REPRO: after first deploy: uncomment this
-		{
-			"deleted_classes": [
-				"MyDurableObject"
-			],
-			"tag": "v2"
-		}
+		// {
+		// 	"deleted_classes": [
+		// 		"MyDurableObject"
+		// 	],
+		// 	"tag": "v2"
+		// }
 	],
 	// BUG REPRO: after first deploy, remove
 	"durable_objects": {
