@@ -13,14 +13,16 @@
 				"MyDurableObject"
 			],
 			"tag": "v1"
+		},
+		{
+			"deleted_classes": [
+				"MyDurableObject"
+			],
+			"tag": "v2"
 		}
 	],
 	"durable_objects": {
 		"bindings": [
-			{
-				"class_name": "MyDurableObject",
-				"name": "MY_DURABLE_OBJECT"
-			}
 		]
 	},
 	"observability": {
